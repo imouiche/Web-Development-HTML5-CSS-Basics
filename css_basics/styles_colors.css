@@ -1,0 +1,20 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: rgb(22, 33, 201);
+  background: linear-gradient(
+    32deg,
+    rgba(22, 33, 201, 1) 23%,
+    rgba(217, 30, 66, 1) 47%
+  );
+  border: 10px dashed royalblue;
+  border-top: 20px solid royalblue;
+  border-width: 10px 20px 10px 20px; /*trbl*/
+  border-radius: 50px;
+  box-shadow: 10px 10px 30px yellow;
+}
+
+h1 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 2);
+}

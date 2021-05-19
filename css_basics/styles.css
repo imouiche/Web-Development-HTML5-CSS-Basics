@@ -1,0 +1,20 @@
+body {
+  margin: 10px;
+}
+
+p {
+  color: orange;
+}
+
+#first {
+  color: black;
+  font-weight: bold;
+}
+
+a[href*="google"] {
+  color: yellow;
+}
+
+#products + p {
+  color: black;
+}

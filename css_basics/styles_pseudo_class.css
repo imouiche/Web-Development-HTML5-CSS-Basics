@@ -1,0 +1,47 @@
+body {
+  margin: 10px;
+}
+
+article p:first-of-type {
+  font-size: 140%;
+  font-style: italic;
+}
+
+ul li:nth-child(even) {
+  color: deeppink;
+}
+
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: deepink;
+}
+
+#first-letter ::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+#first-letter ::first-line {
+  font-weight: bold;
+}
+::selection {
+  background-color: pink;
+}
+
+p::after {
+  content: "...";
+  display: block;
+}
+
+h2#product {
+  color: dodgerblue;
+}
+
+.featured #product {
+  color: yellow;
+}
